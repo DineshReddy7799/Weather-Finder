@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f5f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image:url(wood-591631_640.pg);
+    background-position: center;
+
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(211, 84%, 22%);
+}
+
+#weatherInfo {
+    display: none;
+    margin-top: 20px;
+}
+
+#weatherInfo h2 {
+    color: #333;
+}
+
+#cityName {
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 24px;
+}
+
+#description {
+    font-style: italic;
+}
